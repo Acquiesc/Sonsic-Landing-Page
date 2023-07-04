@@ -29,16 +29,18 @@
         </style>
     </head>
     <body class="antialiased">
-        @include('inc.notifications');
+        @include('inc.notifications')
 
-       <div class="container">
-            <div class="row my-5">
-                <div class="col-12 text-center">
-                    <h1 class="display-1 fw-bold">Sonsic Landing Page</h1>
+       <div class="container-fluid">
+            <div class="row position-relative bg-dark pt-5 pb-3">
+                <div class="col-12 col-md-10 col-lg-8 position-absolute end-0 bottom-0" style="z-index: 1;">
+                    <img src="/imgs/hero.png" class="img-fluid" alt="">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
+                <div class="position-absolute w-100 h-100 start-0 top-0" style="background-color: rgba(7, 7, 7, .7); z-index: 2;">
+
+                </div>
+                <div class="col-12 col-md-8 col-lg-6 d-flex flex-column justify-content-center text-white" style="height: 90vh; z-index: 3;">
+                    <h1 class="display-1 fw-bold text-center" style="color: rgb(0, 168, 255);">Sonsic Landing Page</h1>
                     <form action="/signup" method="POST">
                         @csrf
                         <div class="row mb-3 d-flex justify-content-center">
@@ -52,9 +54,13 @@
                             <div class="col text-center">
                                 <input type="submit" value="Submit" class="btn btn-primary">
                             </div>
-                        </div>            
-
+                        </div>
                     </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    
                 </div>
             </div>
        </div>
