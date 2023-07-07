@@ -28,21 +28,186 @@
             }
         </style>
     </head>
-    <body class="antialiased">
+    <body class="antialiased" style="width: 100vw; overflow-x: hidden;">
         @include('inc.notifications')
 
-       <div class="container-fluid">
-            <div class="row position-relative bg-dark pt-5 pb-3">
-                <div class="col-12 col-md-10 col-lg-8 position-absolute end-0 bottom-0" style="z-index: 1;">
-                    <img src="/imgs/hero.png" class="img-fluid" alt="">
+        <div class="container-fluid px-0">
+            <!-- Hero -->
+            <div class="row bg-dark border-bottom border-dark justify-content-center" style="height: 60vh; width: 100%; overflow-x: hidden; margin: 0;">
+                <div class="col-12 col-md-8 d-flex flex-column justify-content-center px-4 py-5">
+                    <img src="/imgs/Sonsic_light.png" class="img-fluid" alt="Sonsic Logo - a premium augmented reality marketing company">
+                    <p class="text-white mt-3 mb-5">Boost customer engagement and drive sales with cutting-edge AR technology, offering unforgettable experiences to leave a long-lasting impression.</p>
+                    <a href="#newsletter" class="btn btn-primary mx-auto" style="width: fit-content;">Captivate Your Audience</a>
                 </div>
-                <div class="position-absolute w-100 h-100 start-0 top-0" style="background-color: rgba(7, 7, 7, .7); z-index: 2;">
+            </div>
+            <div class="row p-0 m-0 bg-dark">
+                <div class="col-12 p-0 d-flex justify-content-center" style="min-height: 50vh;">
+                    <video width="100%" style="max-width: 1600px;" autoplay muted loop>
+                        <source src="/imgs/demo_placeholder.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="row bg-dark py-5 px-0 mx-0" style="min-height: 25vh;">
+                <div class="col-12 text-white d-flex flex-column justify-content-center">
+                    <p class="text-center fs-3">Experience the future of marketing with Sonsic and unlock unparalleled interactivity, enhanced brand engagement, and unrivaled success.</p>
+                    <p class="text-center fs-3">Join the AR revolution and be at the forefront of innovation.</p>
+                </div>
+            </div>
 
+            <div class="my-5">
+                <!--Mobile-->
+                <section class="container-fluid d-lg-none" style="padding: 0;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-11 col-lg-6 d-flex justify-content-center mb-3">
+                            <img src="/imgs/demo_placeholder.png" alt="" class="w-75 ">
+                        </div>
+                        <div class="col-11 col-lg-6 p-3">
+                            <h3 class="display-3 fw-bold text-center">Become Unforgettable</h3>
+                            <p>Our cutting-edge AR technology offers unforgettable experiences that leave a lasting impression. By incorporating augmented reality into your marketing strategy, you can captivate your audience, increase user interaction time, and ultimately drive sales growth.</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <!--Desktop-->
+                <section class="container d-none d-lg-flex justify-content-center my-5 py-5" style="height: 75vh; padding:0;">
+                    <div class="row position-relative w-100" style="padding: 0; max-width: 1150px;">
+                        <div class="position-absolute border border-dark bg-light shadow w-50 h-auto p-3 top-0 end-0 rounded" style="z-index: 5; background-color: rgba(7,7,7,.8)">
+                            <h3 class="display-3 fw-bold">Become Unforgettable</h3>
+                            <p>Our cutting-edge AR technology offers unforgettable experiences that leave a lasting impression. By incorporating augmented reality into your marketing strategy, you can captivate your audience, increase user interaction time, and ultimately drive sales growth.</p>
+                        </div>
+                        <div class="position-absolute bg-success w-75 h-75 bottom-0 start-0" style="padding:0;">
+                            <img src="/imgs/demo_placeholder.png" alt="" class="w-100 h-100 rounded">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="my-5">
+                <!--Mobile-->
+                <section class="container-fluid d-lg-none" style="padding: 0;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-11 col-lg-6 d-flex justify-content-center mb-3">
+                            <img src="/imgs/demo_placeholder.png" alt="" class="w-75 ">
+                        </div>
+                        <div class="col-11 col-lg-6 p-3">
+                            <h3 class="display-3 fw-bold text-center">Stand Out in the Market</h3>
+                            <p>In today's competitive landscape, standing out from the crowd is crucial. Sonsic's premium AR solutions help your brand shine by offering unique and memorable marketing experiences. Be the talk of the town and leave a lasting impact on your customers.</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <!--Desktop-->
+                <section class="container d-none d-lg-flex justify-content-center my-5 py-5" style="height: 75vh; padding:0;">
+                    <div class="row position-relative w-100" style="padding: 0; max-width: 1150px;">
+                        <div class="position-absolute border border-dark bg-light shadow w-50 h-auto p-3 top-0 start-0 rounded" style="z-index: 5; background-color: rgba(7,7,7,.8)">
+                            <h3 class="display-3 fw-bold">Stand Out in the Market</h3>
+                            <p>In today's competitive landscape, standing out from the crowd is crucial. Sonsic's premium AR solutions help your brand shine by offering unique and memorable marketing experiences. Be the talk of the town and leave a lasting impact on your customers.</p>
+                        </div>
+                        <div class="position-absolute bg-success w-75 h-75 bottom-0 end-0" style="padding:0;">
+                            <img src="/imgs/demo_placeholder.png" alt="" class="w-100 h-100 rounded">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="my-5">
+                <!--Mobile-->
+                <section class="container-fluid d-lg-none" style="padding: 0;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-11 col-lg-6 d-flex justify-content-center mb-3">
+                            <img src="/imgs/demo_placeholder.png" alt="" class="w-75 ">
+                        </div>
+                        <div class="col-11 col-lg-6 p-3">
+                            <h3 class="display-3 fw-bold text-center">Unleash Creative Potential</h3>
+                            <p>With Sonsic, you have the power to transform your marketing collateral into immersive AR experiences. Let your creativity soar as you seamlessly integrate interactive digital content into your physical materials, captivating your audience and differentiating your brand.</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <!--Desktop-->
+                <section class="container d-none d-lg-flex justify-content-center my-5 py-5" style="height: 75vh; padding:0;">
+                    <div class="row position-relative w-100" style="padding: 0; max-width: 1150px;">
+                        <div class="position-absolute border border-dark bg-light shadow w-50 h-auto p-3 top-0 end-0 rounded" style="z-index: 5; background-color: rgba(7,7,7,.8)">
+                            <h3 class="display-3 fw-bold">Unleash Creative Potential</h3>
+                            <p>With Sonsic, you have the power to transform your marketing collateral into immersive AR experiences. Let your creativity soar as you seamlessly integrate interactive digital content into your physical materials, captivating your audience and differentiating your brand.</p>
+                        </div>
+                        <div class="position-absolute bg-success w-75 h-75 bottom-0 start-0" style="padding:0;">
+                            <img src="/imgs/demo_placeholder.png" alt="" class="w-100 h-100 rounded">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="row d-flex justify-content-evenly px-0 mx-0 py-5 bg-dark">
+                <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column">
+                        <i class="bi bi-camera-fill display-1 mx-auto"></i>
+                        <h5 class="card-title text-center fw-bold">Stay Relevant</h5>
+                        <p class="card-text">Say goodbye to stagnant marketing materials. Sonsic's AR solutions allow you to update displayed content at any time, ensuring your marketing collateral remains fresh, up-to-date, and aligned with your evolving business goals.</p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-8 col-lg-6 d-flex flex-column justify-content-center text-white" style="height: 90vh; z-index: 3;">
-                    <h1 class="display-1 fw-bold text-center" style="color: rgb(0, 168, 255);">Sonsic Landing Page</h1>
-                    <form action="/signup" method="POST">
+                <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column">
+                        <i class="bi bi-cursor-fill display-1 mx-auto"></i>
+                        <h5 class="card-title text-center fw-bold">One Click Interaction</h5>
+                        <p class="card-text">Engage your audience with seamless and interactive experiences. With Sonsic's AR solutions, a simple click opens up a world of captivating digital content, allowing your customers to explore, interact, and connect with your brand like never before.</p>
+                    </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column">
+                        <i class="bi bi-lightbulb-fill display-1 mx-auto"></i>
+                        <h5 class="card-title text-center fw-bold">Enhance Customer Retention</h5>
+                        <p class="card-text">With Sonsic's AR solutions, you can create memorable and interactive experiences that leave a lasting impression on your customers. By offering unique and engaging augmented reality content, you can foster customer loyalty, increase repeat business, and enhance long-term customer retention.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container my-5 py-5">
+                <div class="row mb-5">
+                    <div class="col-12 col-md-6 px-5 d-flex flex-column justify-content-center mb-3">
+                        <div class="w-auto">
+                            <h3 class="fw-bold">Bring Your Business Card</h3>
+                            <ol class="list-group">
+                                <li class="mb-2">Upload your current business card</li>
+                                <li class="mb-2">Position the QR code placeholder where you'd like it to be printed</li>
+                                <li class="mb-2">We'll handle the activation, processing, and shipping so you can sit back and relax</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img src="/imgs/bc_standard_diagram.png" alt="" class="img-fluid" style="max-height: 500px;">
+                    </div>
+                </div>
+                <div class="row d-flex flex-md-row-reverse mb-5">
+                    <div class="col-12 col-md-6 px-5 d-flex flex-column justify-content-center mb-3">
+                        <div class="w-auto">
+                            <h3 class="fw-bold">Become a Partner</h3>
+                            <p>We understand that every business is unique. That's why we offer a personalized consultation and custom design package. Our expert team will guide you through the process, whether you need assistance designing business cards, restaurant menus, or any other marketing materials tailored to your specific needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img src="/imgs/partner_placeholder.jpg" alt="" class="img-fluid" style="max-height: 500px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 mt-5 bg-dark mx-0 px-0">
+                <div class="col-12 text-white px-5">
+                    <p class="fs-4 text-center">Together, let's transform your business and elevate your 
+                        marketing to new heights with augmented reality.</p>
+                    <p class="fs-4 text-center mb-5">Signup for a chance to get a free demo product</p>
+                    <form action="/signup" method="POST" id="newsletter">
                         @csrf
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="first_name">First Name</label>
+                                <input class="form-control" type="text" name="first_name" placeholder="First Name...">
+                            </div>
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="last_name">Last Name</label>
+                                <input class="form-control" type="text" name="last_name" placeholder="Last Name...">
+                            </div>
+                        </div>
                         <div class="row mb-3 d-flex justify-content-center">
                             <div class="col-12 col-md-8 col-lg-6">
                                 <label for="email">Email</label>
@@ -52,17 +217,26 @@
 
                         <div class="row mb-3">
                             <div class="col text-center">
-                                <input type="submit" value="Submit" class="btn btn-primary">
+                                <input type="submit" value="Enter Now" class="btn btn-primary">
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    
+
+            <footer class="row px-0 mx-0 py-3 bg-dark border-top justify-content-between">
+                <div class="col-12 col-md-6 px-3">
+                    <p class="fw-bold fs-3 text-white mb-0">Sonsic</p>
                 </div>
-            </div>
-       </div>
+                <div class="col-12 col-md-6 px-5">
+                    <ul class="d-flex gap-3 p-0 justify-content-end mb-0">
+                        <li class="d-flex justify-content-center"><a class="text-white" href="#"><i class="bi bi-twitter fs-4"></i></a></li>
+                        <li class="d-flex justify-content-center"><a class="text-white" href="#"><i class="bi bi-facebook fs-4"></i></a></li>
+                        <li class="d-flex justify-content-center"><a class="text-white" href="#"><i class="bi bi-instagram fs-4"></i></a></li>
+                        <li class="d-flex justify-content-center"><a class="text-white" href="#"><i class="bi bi-tiktok fs-4"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+
     </body>
 </html>
