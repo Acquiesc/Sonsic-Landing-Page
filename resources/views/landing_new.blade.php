@@ -36,8 +36,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="/landing"><img src="/imgs/Sonsic Logo.svg" width="150" alt=""></a>
                 
-                <ul class="navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
-                    <a href="#signup" class="btn btn-primary w-auto text-nowrap">Become Unforgettable</a>
+                <ul class=" navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
+                    <a href="#signup" class="btn btn-primary w-auto text-nowrap d-none d-sm-flex">Become Unforgettable</a>
                 </ul>
             </div>
         </nav>
@@ -55,7 +55,7 @@
             </section>
         </div>
 
-        <div class="container-fluid mx-0 mb-5 py-5 bg-dark">
+        <div class="container-fluid mx-0 mb-5 bg-dark" style="padding-top: 15vh; padding-bottom: 15vh;">
             <div class="row">
                 <div class="col-12 col-md-10 col-lg-8 text-center mx-auto">
                     <h3 class="fw-bold text-white">We turn ordinary objects like business cards, restaurant menus, and product packaging
@@ -160,19 +160,30 @@
                     </p>
                 </div>
             </div>
+        </div>
 
-            <div class="row mb-5" style="width: 100vw;">
-                <div class="col-12 col-md-6 mx-auto p-0 text-end" style="max-width: 600px; height: 50vh;">
-                    <h3 class="display-3 fw-bold header">Accessible on all devices with a camera & modern web browser</h3>
-                    <p class="d-none d-md-block subheader fs-5">
-                        Reach a wider audience effortlessly with our device-agnostic approach. Our augmented reality 
-                        experiences are accessible on smartphones, tablets, and computers, making it easy for anyone 
-                        with a modern web browser and a camera to engage with your brand. No need for additional 
-                        apps or downloads – simply scan a QR code to unlock a world of interactive content.
-                    </p>
+        <div class="container">
+            <div class="row my-5 py-5">
+                <div class="col-12">
+                    <h3 class="display-3 fw-bold header text-center">Accessible on All Modern Devices</h3>
                 </div>
-                <div class="col-12 col-md-6 p-0">
-
+            </div>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-auto bg-dark text-white text-center circle-icon animation-delay-1 mb-3">
+                    <i class="bi bi-phone display-1"></i>
+                    <p>Mobile</p>
+                </div>
+                <div class="col-auto bg-dark text-white text-center circle-icon animation-delay-2 mb-3">
+                    <i class="bi bi-tablet display-1"></i>
+                    <p>Tablet</p>
+                </div>
+                <div class="col-auto bg-dark text-white text-center circle-icon animation-delay-3 mb-3">
+                    <i class="bi bi-laptop display-1"></i>
+                    <p>Laptop</p>
+                </div>
+                <div class="col-auto bg-dark text-white text-center circle-icon animation-delay-4 mb-3">
+                    <i class="bi bi-pc-display display-1"></i>
+                    <p>Desktop</p>
                 </div>
             </div>
         </div>
@@ -352,6 +363,31 @@
 
                 sub_headers.forEach(sub_header => {
                     observer.observe(sub_header);
+                });
+            });
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const circleIcons = document.querySelectorAll('.circle-icon');
+                const options = {
+                    threshold: 0.3
+                };
+
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = 1;
+                            entry.target.style.transform = 'translateY(0)';
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, options);
+
+                // Add an index to stagger the animation delay
+                circleIcons.forEach((icon, index) => {
+                    icon.style.transitionDelay = `${index * 150}ms`; // Adjust the delay here as needed
+                    observer.observe(icon);
                 });
             });
         </script>
