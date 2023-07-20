@@ -21,6 +21,10 @@ Route::get('/', function () {
     return view('landing');
 });
 
+Route::get('/landing', function() {
+    return view('landing_new');
+});
+
 Route::post('/signup', function(Request $request) {
     $validator = Validator::make($request->all(), [ 
         'email' => 'required',

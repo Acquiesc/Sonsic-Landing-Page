@@ -1,0 +1,96 @@
+:root {
+    --red: #CE1620;
+    --white: #FFFFFF;
+    --lightgray: #f5f5f5;
+    --darkgray: #333333;
+
+    /*
+    --red: #CE1620;
+    --lightgray: #F2F2F2;
+    --mediumgray: #E5E5E5;
+    --lightblack: #1C1C1C;
+
+    --red: #CE1620;
+    --gold:#FFD700;
+    --green: #4CAF50;
+    --blue: #1976D2;
+
+    --red: #CE1620;
+    --offwhite: #F9F9F9;
+    --lightgray: #D3D3D3;
+    --darkgray: #505050;
+
+    --red: #CE1620;
+    --brightblue: #2196F3;
+    --bluegray: #607D8B;
+    --lightgray: #E0E0E0;
+    */
+}
+
+/*Intersection Observer Fade Effect*/
+h3 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.subheader {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+h3.fade-in, .subheader.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*Bootstrap Overwrites*/
+.bg-light {
+    background-color: var(--white) !important;
+}
+
+.bg-dark {
+    background-color: var(--darkgray) !important;
+}
+
+.btn-primary {
+    background-color: var(--red) !important;
+}
+
+.card-text {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+.bi-check-lg {
+    color: green;
+    background-color:black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+/*Custom Styling*/
+body {
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+#heroImg {
+    background-image: url('/imgs/Website BG.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+}
+
+i:hover {
+    color: var(--red);
+}

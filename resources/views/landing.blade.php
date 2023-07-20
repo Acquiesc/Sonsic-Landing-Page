@@ -33,24 +33,35 @@
 
         <div class="container-fluid px-0">
             <!-- Hero -->
-            <div class="row bg-dark border-bottom border-dark justify-content-center" style="height: 60vh; width: 100%; overflow-x: hidden; margin: 0;">
+            <div class="row bg-light border-bottom border-dark justify-content-center" style="height: 60vh; width: 100%; overflow-x: hidden; margin: 0;">
                 <div class="col-12 col-md-8 d-flex flex-column justify-content-center px-4 py-5">
-                    <img src="/imgs/Sonsic_light.png" class="img-fluid" alt="Sonsic Logo - a premium augmented reality marketing company">
-                    <p class="text-white mt-3 mb-5">Boost customer engagement and drive sales with cutting-edge AR technology, offering unforgettable experiences to leave a long-lasting impression.</p>
+                    <img src="/imgs/Sonsic.svg" class="img-fluid" alt="Sonsic Logo - a premium augmented reality marketing company">
+                    <p class="mt-3 mb-5 text-center">Boost customer engagement and drive sales with cutting-edge AR technology, offering unforgettable experiences to leave a long-lasting impression.</p>
                     <a href="#newsletter" class="btn btn-primary mx-auto" style="width: fit-content;">Captivate Your Audience</a>
                 </div>
             </div>
-            <div class="row p-0 m-0 bg-dark">
-                <div class="col-12 p-0 d-flex justify-content-center" style="min-height: 50vh;">
-                    <video width="100%" style="max-width: 1600px;" autoplay muted loop>
-                        <source src="/imgs/demo_placeholder.mp4" type="video/mp4">
-                    </video>
+
+            <div class="row d-flex justify-content-evenly px-0 mx-0 py-5 bg-dark">
+                <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column">
+                        <i class="bi bi-camera-fill display-1 mx-auto"></i>
+                        <h5 class="card-title text-center fw-bold mb-3">Stay Relevant</h5>
+                        <p class="card-text">Say goodbye to stagnant marketing materials. Sonsic's AR solutions allow you to update displayed content at any time, ensuring your marketing collateral remains fresh, up-to-date, and aligned with your evolving business goals.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row bg-dark py-5 px-0 mx-0" style="min-height: 25vh;">
-                <div class="col-12 text-white d-flex flex-column justify-content-center">
-                    <p class="text-center fs-3">Experience the future of marketing with Sonsic and unlock unparalleled interactivity, enhanced brand engagement, and unrivaled success.</p>
-                    <p class="text-center fs-3">Join the AR revolution and be at the forefront of innovation.</p>
+                <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column">
+                        <i class="bi bi-cursor-fill display-1 mx-auto"></i>
+                        <h5 class="card-title text-center fw-bold mb-3">One Click Interaction</h5>
+                        <p class="card-text">Engage your audience with seamless and interactive experiences. With Sonsic's AR solutions, a simple click opens up a world of captivating digital content, allowing your customers to explore, interact, and connect with your brand like never before.</p>
+                    </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column">
+                        <i class="bi bi-lightbulb-fill display-1 mx-auto"></i>
+                        <h5 class="card-title text-center fw-bold mb-3">Enhance Customer Retention</h5>
+                        <p class="card-text">With Sonsic's AR solutions, you can create memorable and interactive experiences that leave a lasting impression on your customers. By offering unique and engaging augmented reality content, you can foster customer loyalty, increase repeat business, and enhance long-term customer retention.</p>
+                    </div>
                 </div>
             </div>
 
@@ -138,27 +149,10 @@
                 </section>
             </div>
 
-            <div class="row d-flex justify-content-evenly px-0 mx-0 py-5 bg-dark">
-                <div class="card m-3" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column">
-                        <i class="bi bi-camera-fill display-1 mx-auto"></i>
-                        <h5 class="card-title text-center fw-bold">Stay Relevant</h5>
-                        <p class="card-text">Say goodbye to stagnant marketing materials. Sonsic's AR solutions allow you to update displayed content at any time, ensuring your marketing collateral remains fresh, up-to-date, and aligned with your evolving business goals.</p>
-                    </div>
-                </div>
-                <div class="card m-3" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column">
-                        <i class="bi bi-cursor-fill display-1 mx-auto"></i>
-                        <h5 class="card-title text-center fw-bold">One Click Interaction</h5>
-                        <p class="card-text">Engage your audience with seamless and interactive experiences. With Sonsic's AR solutions, a simple click opens up a world of captivating digital content, allowing your customers to explore, interact, and connect with your brand like never before.</p>
-                    </div>
-                </div>
-                <div class="card m-3" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column">
-                        <i class="bi bi-lightbulb-fill display-1 mx-auto"></i>
-                        <h5 class="card-title text-center fw-bold">Enhance Customer Retention</h5>
-                        <p class="card-text">With Sonsic's AR solutions, you can create memorable and interactive experiences that leave a lasting impression on your customers. By offering unique and engaging augmented reality content, you can foster customer loyalty, increase repeat business, and enhance long-term customer retention.</p>
-                    </div>
+            <div class="row bg-dark py-5 px-0 mx-0 d-flex justify-content-center" style="min-height: 25vh;">
+                <div class="col-10 text-white d-flex flex-column justify-content-center">
+                    <p class="text-center fs-3">Experience the future of marketing with Sonsic and unlock unparalleled interactivity, enhanced brand engagement, and unrivaled success.</p>
+                    <p class="text-center fs-3">Join the AR revolution and be at the forefront of innovation.</p>
                 </div>
             </div>
 
