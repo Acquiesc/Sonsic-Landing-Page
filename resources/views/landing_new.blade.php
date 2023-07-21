@@ -32,9 +32,9 @@
     <body class="antialiased bg-light">
         @include('inc.notifications')
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top px-3 w-100" style="background-color: rgba(27, 27, 27, .3)">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/landing"><img src="/imgs/Sonsic Logo.svg" width="150" alt=""></a>
+                <a class="navbar-brand" href="/landing"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt=""></a>
                 
                 <ul class=" navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
                     <a href="#signup" class="btn btn-primary w-auto text-nowrap d-none d-sm-flex">Become Unforgettable</a>
@@ -42,15 +42,15 @@
             </div>
         </nav>
 
-        <div class="container-fluid d-flex flex-column justify-content-center mb-5 pb-5" style="height: calc(90vh - 50.91px);">
-            <section class="row h-100 align-items-center p-0" id="heroImg">
-                <div class="col-12 p-0 h-50 text-center mx-auto" style="max-width: 90%;">
-                    <h1 class="fw-bold display-1 mt-3 mx-auto" style="max-width: 800px;">Connecting Brands to Customers like Never Before</h1>
-                        <p>
+        <div class="container-fluid d-flex flex-column justify-content-center bg-dark text-white">
+            <section class="row">
+                <div class="col-12 h-50 text-center mx-auto" style="max-width: 90%; margin-top: 15vh;">
+                    <img src="/imgs/Sonsic White Logo (2).svg" class="img-fluid" style="" alt="">
+                    <h1 class="fw-bold display-1 mt-3 mx-auto mb-5" style="">Connecting Brands to Customers like Never Before</h1>
                     <a href="#signup" class="btn btn-primary">Become Unforgettable</a>
                 </div>
-                <div class="col-12 p-0 h-50 text-center">
-                    <img src="/imgs/Three Card Front Display (2).svg" alt="" class="img-fluid" style="margin-top: 50px; width: 100%; max-width: 800px; margin-bottom: 10px;">
+                <div class="col-12 d-flex flex-column" style="max-height: 800px;">
+                    <img src="/imgs/Hero Section Img (5).svg" class="img-fluid mx-auto mt-5" style="width: 100%; max-width: 1000px; box-shadow: 0 5px 30px var(--red);" alt="">
                 </div>
             </section>
         </div>
@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <div class="container-fluid pe-0 mb-5">
+        <div class="container-fluid mb-5">
             <div class="row mb-5" style="width: 100vw; height: 50vh;">
                 <div class="col-12 col-md-6 mx-auto p-0 text-end" style="max-width: 600px; height: 50vh;">
                     <h3 class="display-3 fw-bold mb-3 header">Make your first impression unique & memorable</h3>
@@ -188,7 +188,7 @@
             </div>
         </div>
 
-        <div class="container-fluid my-5 px-0" style="height: 20vh; max-height: 250px; overflow: hidden;">
+        <div class="container-fluid my-5" style="height: 20vh; max-height: 250px; overflow: hidden;">
             <img src="/imgs/divider_2.svg" alt="" style="object-fit: cover;">
         </div>
 
@@ -317,7 +317,7 @@
 
                         <div class="row mb-3">
                             <div class="col text-center">
-                                <input type="submit" value="Join Our Newsletter" class="btn btn-primary">
+                                <input type="submit" value="Join Our Waitlist" class="btn btn-primary">
                             </div>
                         </div>
                     </form>
