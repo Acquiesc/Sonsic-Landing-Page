@@ -68,7 +68,7 @@
                 <div class="col-10 text-center">
                         <ul>
                         @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
+                                <li style="list-style: none;">{{ $error }}</li>
                         @endforeach
                         </ul>
                 </div>

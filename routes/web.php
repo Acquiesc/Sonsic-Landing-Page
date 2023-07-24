@@ -3,8 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 use App\Models\NewsletterSignup;
+
+use App\Mail\SignupResponse;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,12 +24,10 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('/landing', function() {
-    return view('landing_new');
-});
-
 Route::post('/signup', function(Request $request) {
     $validator = Validator::make($request->all(), [ 
+        'first_name' => 'required',
+        'last_name' => 'required',
         'email' => 'required',
     ]);
 
@@ -36,9 +37,15 @@ Route::post('/signup', function(Request $request) {
 
     $signup = new NewsletterSignup;
 
+    $signup->first = $request->input('first_name');
+
+    $signup->last = $request->input('last_name');
+
     $signup->email = $request->input('email');
 
     $signup->save();
+
+    Mail::to($signup->email)->send(new SignupResponse($signup->id));
 
     return back()->with('success', 'Thank you for signing up to the Sonsic newsletter!');
 });
