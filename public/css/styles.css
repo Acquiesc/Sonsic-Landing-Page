@@ -133,7 +133,7 @@ body {
 }
 
 #home {
-    background-image: url('/imgs/physical_assets/lookout_2_masked.png');
+    background-image: url('/imgs/physical_assets/lookout_2_masked.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body {
 }
 
 #join {
-    background-image: url('/imgs/physical_assets/bonsai_looking_tree.jpg');
+    background-image: url('/imgs/physical_assets/bonsai_looking_tree.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -16,6 +16,9 @@
 
         <title>Sonsic</title>
 
+        <!-- Favicon -->
+        <link rel="icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -73,25 +76,9 @@
 
         <div class="container-fluid mb-5">
             <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 mx-auto p-0" style="max-width: 600px;">
-                    <h3 class="display-3 fw-bold mb-3 header px-3">Make your first impression unique & memorable</h3>
-                    <p class="d-none d-md-block subheader fs-5 px-3">Stand out from the competition by leaving a lasting and 
-                        unforgettable impact on potential customers. The immersive and interactive 
-                        nature of our technology fosters a stronger connection between your brand and your audience, resulting in higher retention rates.
-                        Elevate your brand recognition with a first impression that stands out in customers' minds.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 p-0">
-                    <div class="image-container-right">
-                        <img src="/imgs/physical_assets/lookout_2.jpg" class="img-fluid rounded" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
                 <div class="col-12 col-md-6 p-0">
                     <div class="image-container-left">
-                        <img src="/imgs/physical_assets/lookout_2.jpg" class="img-fluid rounded" alt="">
+                        <img src="/imgs/bc_standard_diagram.svg" class="img-fluid rounded border shadow" style="max-width: 95%;" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 mx-auto p-0" style="max-width: 600px;">
@@ -106,7 +93,30 @@
             </div>
 
             <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 mx-auto p-0" style="max-width: 600px;">
+                <div class="col-12 col-md-6 mx-auto d-flex flex-column" style="max-width: 600px;">
+                    <i class="bi bi-eye fw-bold text-center mx-auto d-md-none" style="font-size: 10rem;"></i>
+                    
+                    <h3 class="display-3 fw-bold mb-3 header px-3">Make your first impression unique & memorable</h3>
+                    <p class="d-none d-md-block subheader fs-5 px-3">Stand out from the competition by leaving a lasting and 
+                        unforgettable impact on potential customers. The immersive and interactive 
+                        nature of our technology fosters a stronger connection between your brand and your audience, resulting in higher retention rates.
+                        Elevate your brand recognition with a first impression that stands out in customers' minds.
+                    </p>
+                </div>
+                <div class="d-none d-md-block col-12 col-md-6 p-0">
+                    <div class="image-container-right">
+                        <img src="/imgs/physical_assets/sonsic_back_river.webp" class="img-fluid rounded border shadow" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
+                <div class="col-12 col-md-6 p-0">
+                    <div class="image-container-right">
+                        <img src="/imgs/Sonsic_portal.webp" class="img-fluid rounded border shadow" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mx-auto d-flex flex-column" style="max-width: 600px;">
                     <h3 class="display-3 fw-bold header px-3">Update your display anytime, anywhere</h3>
                     <p class="d-none d-md-block subheader fs-5 px-3">
                         Stay ahead of the curve by updating your augmented reality displays on-the-go. 
@@ -116,20 +126,16 @@
                         most compelling offers.
                     </p>
                 </div>
-                <div class="col-12 col-md-6 p-0">
-                    <div class="image-container-right">
-                        <img src="/imgs/physical_assets/lookout_2.jpg" class="img-fluid rounded" alt="">
-                    </div>
-                </div>
             </div>
 
-            <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 p-0">
+            <div class="row d-flex flex-row-reverse mb-5 align-items-center" style="width: 100vw; height: 75vh;">
+                <div class="col-12 col-md-6 p-0 d-none d-md-block">
                     <div class="image-container-left">
-                        <img src="/imgs/physical_assets/lookout_2.jpg" class="img-fluid rounded" alt="">
+                        <img src="/imgs/physical_assets/sonsic_front_building.webp" class="img-fluid rounded border shadow" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mx-auto p-0" style="max-width: 600px;">
+                <div class="col-12 col-md-6 mx-auto p-0 d-flex flex-column" style="max-width: 600px;">
+                    <i class="bi bi-hand-index fw-bold text-center mx-auto d-md-none" style="font-size: 10rem;"></i>
                     <h3 class="display-3 fw-bold header px-3">One click user access to all of your existing online marketing materials</h3>
                     <p class="d-none d-md-block subheader fs-5 px-3" >
                         Simplify your customers' journey with a single tap. Our augmented reality experiences 
@@ -141,6 +147,11 @@
             </div>
 
             <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
+                <div class="col-12 col-md-6 p-0">
+                    <div class="image-container-right">
+                        <img src="/imgs/chart.webp" class="img-fluid rounded border shadow" alt="">
+                    </div>
+                </div>
                 <div class="col-12 col-md-6 mx-auto p-0" style="max-width: 600px;">
                     <h3 class="display-3 fw-bold header px-3">Monthly user interaction analytic reports</h3>
                     <p class="d-none d-md-block subheader fs-5 px-3">
@@ -151,11 +162,6 @@
                         your marketing strategy. Measure the success of your campaigns and refine your approach 
                         to maximize engagement and conversions.
                     </p>
-                </div>
-                <div class="col-12 col-md-6 p-0">
-                    <div class="image-container-right">
-                        <img src="/imgs/physical_assets/lookout_2.jpg" class="img-fluid rounded" alt="">
-                    </div>
                 </div>
             </div>
         </div>

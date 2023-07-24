@@ -22,7 +22,7 @@ class SignupResponse extends Mailable
      */
     public function __construct($id)
     {
-        $user = NewsletterSignup::find($id);
+        $this->user = NewsletterSignup::find($id);
     }
 
     /**
