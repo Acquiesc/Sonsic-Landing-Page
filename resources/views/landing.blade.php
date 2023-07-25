@@ -42,48 +42,46 @@
             }
         </style>
     </head>
-    <body class="antialiased bg-light">
+    <body class="antialiased bg-light" style="overflow-x: hidden; width: 100vw; max-width: 100vw;">
         @include('inc.notifications')
 
-        <nav class="navbar navbar-expand-lg fixed-top px-3 w-100" style="background-color: rgba(27, 27, 27, .5)">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-lg-top" style="background-color: rgba(27, 27, 27, .5);">
+            <div class="d-flex w-100 justify-content-between align-items-center">
                 <a class="navbar-brand" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt=""></a>
-                
-                <ul class=" navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
                     <a href="#join" class="btn w-auto text-nowrap d-none d-sm-flex">Become Unforgettable</a>
                 </ul>
             </div>
         </nav>
 
-        <div class="container-fluid d-flex flex-column bg-dark text-white bg-gradient-overlay-hero" style="height: 95vh;" id="home">
-            <section class="row" style="margin-top: 10vh;">
-                <div class="col-12 h-100 text-center mx-auto" style="max-width: 90%;">
-                    <h1 class="fw-bold display-1 mt-3 mx-auto mb-5" style="">Connecting Brands to Customers like Never Before</h1>
-                    <a href="#join" class="btn" style="z-index: 5;">Become Unforgettable</a>
-                </div>
-            </section>
-        </div>
-
-        <div class="container-fluid mb-5 bg-dark" style="padding-top: 15vh; padding-bottom: 15vh;">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-10 col-lg-8 text-center mx-auto">
-                    <h3 class="fw-bold text-white">We turn ordinary objects like business cards, restaurant menus, and product packaging
-                        into unique and interactive augmented reality displays to deliver a memorable experience and increase brand recognition
-                    </h3>
+                <div class="col-12 text-center bg-image">
+                    <h1 class="fw-bold text-white display-1 my-5">Connecting Brands to Customers<br> like Never Before</h1>
+                    <a href="#join" class="btn">Become Unforgettable</a>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mb-5">
-            <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 p-0">
+        <div class="container-fluid bg-dark py-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center text-white ">
+                    <p class="fw-bold fs-3 text-white my-5">We turn ordinary objects like business cards, restaurant menus, and product packaging
+                        into unique and interactive augmented reality displays to deliver a memorable experience and increase brand recognition</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="row mb-5 align-items-center" style="height: 75vh;">
+                <div class="col-12 col-md-6">
                     <div class="image-container-left">
-                        <img src="/imgs/bc_standard_diagram.svg" class="img-fluid rounded border shadow" style="max-width: 95%;" alt="">
+                        <img src="/imgs/bc_standard_diagram.svg" class="img-fluid rounded border shadow" style="max-width: 100%;" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mx-auto p-0" style="max-width: 600px;">
-                    <h3 class="display-3 fw-bold header px-3">Transform almost any physical medium into an interactive display</h3>
-                    <p class="d-none d-md-block subheader fs-5 px-3">
+                <div class="col-12 col-md-5 mx-auto" style="">
+                    <h3 class="display-4 fw-bold header">Transform almost any physical medium into an interactive display</h3>
+                    <p class="d-none d-md-block subheader fs-5">
                         Take traditional marketing mediums to a whole new level with our interactive AR technology. 
                         We seamlessly integrate augmented reality into your menus, product packaging, and more, 
                         turning them into captivating and interactive displays. Engage your customers in innovative 
@@ -91,34 +89,32 @@
                     </p>
                 </div>
             </div>
-
-            <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 mx-auto d-flex flex-column" style="max-width: 600px;">
+        
+            <div class="row mb-5 align-items-center" style="height: 75vh;">
+                <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
                     <i class="bi bi-eye fw-bold text-center mx-auto d-md-none" style="font-size: 10rem;"></i>
                     
-                    <h3 class="display-3 fw-bold mb-3 header px-3">Make your first impression unique & memorable</h3>
-                    <p class="d-none d-md-block subheader fs-5 px-3">Stand out from the competition by leaving a lasting and 
+                    <h3 class="display-4 fw-bold mb-3 header">Make your first impression unique & memorable</h3>
+                    <p class="d-none d-md-block subheader fs-5">Stand out from the competition by leaving a lasting and 
                         unforgettable impact on potential customers. The immersive and interactive 
                         nature of our technology fosters a stronger connection between your brand and your audience, resulting in higher retention rates.
                         Elevate your brand recognition with a first impression that stands out in customers' minds.
                     </p>
                 </div>
-                <div class="d-none d-md-block col-12 col-md-6 p-0">
+                <div class="d-none d-md-block col-12 col-md-6">
                     <div class="image-container-right">
-                        <img src="/imgs/physical_assets/sonsic_back_river.webp" class="img-fluid rounded border shadow" alt="">
+                        <img src="/imgs/physical_assets/sonsic_back_river.webp" class="img-fluid rounded border shadow" style="max-width: 100%;" alt="">
                     </div>
                 </div>
             </div>
-
-            <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 p-0">
-                    <div class="image-container-right">
-                        <img src="/imgs/Sonsic_portal.webp" class="img-fluid rounded border shadow" alt="">
-                    </div>
+            
+            <div class="row mb-5" style="height: 75vh;">
+                <div class="col-12 col-md-6">
+                    <img src="/imgs/Sonsic_portal.webp" class="image-container-right img-fluid rounded border shadow" style="max-width: 100%;" alt="">
                 </div>
-                <div class="col-12 col-md-6 mx-auto d-flex flex-column" style="max-width: 600px;">
-                    <h3 class="display-3 fw-bold header px-3">Update your display anytime, anywhere</h3>
-                    <p class="d-none d-md-block subheader fs-5 px-3">
+                <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
+                    <h3 class="display-4 fw-bold header">Update your display anytime, anywhere</h3>
+                    <p class="d-none d-md-block subheader fs-5">
                         Stay ahead of the curve by updating your augmented reality displays on-the-go. 
                         Our user-friendly business dashboard empowers you to make real-time changes to 
                         your marketing materials without the need for reprints or redesigns. Keep your 
@@ -128,16 +124,16 @@
                 </div>
             </div>
 
-            <div class="row d-flex flex-row-reverse mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 p-0 d-none d-md-block">
+            <div class="row d-flex flex-row-reverse mb-5" style="height: 75vh;">
+                <div class="col-12 col-md-6 d-none d-md-block">
                     <div class="image-container-left">
                         <img src="/imgs/physical_assets/sonsic_front_building.webp" class="img-fluid rounded border shadow" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mx-auto p-0 d-flex flex-column" style="max-width: 600px;">
+                <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
                     <i class="bi bi-hand-index fw-bold text-center mx-auto d-md-none" style="font-size: 10rem;"></i>
-                    <h3 class="display-3 fw-bold header px-3">One click user access to all of your existing online marketing materials</h3>
-                    <p class="d-none d-md-block subheader fs-5 px-3" >
+                    <h3 class="display-4 fw-bold header">One click user access to all of your existing online marketing materials</h3>
+                    <p class="d-none d-md-block subheader fs-5" >
                         Simplify your customers' journey with a single tap. Our augmented reality experiences 
                         provide one-click access to all your online marketing materials, including your website, 
                         social media profiles, email, and phone. Make it effortless for potential customers to 
@@ -146,15 +142,15 @@
                 </div>
             </div>
 
-            <div class="row mb-5 align-items-center" style="width: 100vw; height: 75vh;">
-                <div class="col-12 col-md-6 p-0">
+            <div class="row mb-5" style="height: 75vh;">
+                <div class="col-12 col-md-6">
                     <div class="image-container-right">
                         <img src="/imgs/chart.webp" class="img-fluid rounded border shadow" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mx-auto p-0" style="max-width: 600px;">
-                    <h3 class="display-3 fw-bold header px-3">Monthly user interaction analytic reports</h3>
-                    <p class="d-none d-md-block subheader fs-5 px-3">
+                <div class="col-12 col-md-5 mx-auto" style="">
+                    <h3 class="display-4 fw-bold header">Monthly user interaction analytic reports</h3>
+                    <p class="d-none d-md-block subheader fs-5">
                         Gain valuable insights into customer behavior 
                         with our comprehensive monthly analytic reports. 
                         Understand how users interact with your augmented 
@@ -442,7 +438,7 @@
             // Get all elements with the class "image-container"
             const imageContainersRight = document.querySelectorAll(".image-container-right");
             const imageContainersLeft = document.querySelectorAll(".image-container-left");
-        
+
             // Intersection Observer callback function
             function handleIntersection(entries, observer) {
             entries.forEach((entry) => {
@@ -454,17 +450,17 @@
                 }
             });
             }
-        
+
             // Intersection Observer options
             const options = {
             root: null, // Use the viewport as the root
             rootMargin: "0px", // No root margin
             threshold: 0.2, // 20% of the target element is visible
             };
-        
+
             // Create the Intersection Observer
             const observer = new IntersectionObserver(handleIntersection, options);
-        
+
             // Observe each "image-container"
             imageContainersRight.forEach((container) => observer.observe(container));
             imageContainersLeft.forEach((container) => observer.observe(container));
