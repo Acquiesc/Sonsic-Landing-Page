@@ -13,8 +13,10 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Sonsic</title>
+        <meta name="description" content="Transform almost any ordinary object like business cards, restaurant menus, and product packaging into unique and interactive augmented reality displays to deliver a memorable user experience and increase brand recognition. Sonsic AR empowers brands to make a first impression that stands out and offers one-click user access to all existing online marketing materials. Update displays anytime, anywhere, and gain insights with monthly user interaction analytic reports. Accessible on all modern devices. Join our waitlist now to boost your brand!">
+        <meta name="keywords" content="Sonsic AR, augmented reality displays, interactive AR technology, brand recognition, user experience, online marketing materials, AR infrastructure, augmented reality platform, modern devices, business cards, restaurant menus, product packaging, user interaction analytics, brand impact, customer behavior, web-based augmented reality, Sonsic">
+        <meta name="author" content="Sonsic">
 
         <!-- Favicon -->
         <link rel="icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon">
@@ -47,7 +49,7 @@
 
         <nav class="navbar navbar-expand-lg fixed-lg-top bg-dark">
             <div class="d-flex w-100 justify-content-between align-items-center">
-                <a class="navbar-brand" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt=""></a>
+                <a class="navbar-brand" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt="The Sonsic Logo, white letters with a red hexagon dot"></a>
                 <ul class="navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
                     <a href="#join" class="btn w-auto text-nowrap d-none d-sm-flex">Become Unforgettable</a>
                 </ul>
@@ -70,13 +72,13 @@
                         into unique and interactive augmented reality displays to deliver a memorable user experience and increase brand recognition</p>
                 </div>
                 <div class="col-12 col-md-10 col-lg-8 embed-responsive embed-responsive-16by9">
-                    <video src="/imgs/physical_assets/Sonsic Demo Landscape Cropped.mp4" autoplay muted controls loop></video>
+                    <video src="/imgs/physical_assets/Sonsic Demo Landscape Cropped.mp4" autoplay muted controls loop alt="A video demonstration of the Sonsic augmented reality business card, featuring the interactability of an AR display"></video>
                 </div>
             </div>
         </div>
 
-        <!--
         <div class="container-fluid mb-5">
+            <!--
             <div class="row my-5 align-items-center" style="height: 75vh;">
                 <div class="col-12 col-md-6 mb-3 align-items-center">
                     <div class="image-container-left">
@@ -93,12 +95,12 @@
                     </p>
                 </div>
             </div>
-        -->
+            -->
         
             <div class="row my-5 align-items-center d-flex flex-row-reverse" style="height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
                     <div class="image-container-right">
-                        <img src="/imgs/stock_photos/guy holding phone.webp" class="img-fluid rounded border shadow" alt="">
+                        <img src="/imgs/stock_photos/guy holding phone.webp" class="img-fluid rounded border shadow" alt="Happy customer looking at phone">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
@@ -114,7 +116,7 @@
             <div class="row my-5 align-items-center" style="height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
                     <div class="image-container-right">
-                        <img src="/imgs/physical_assets/card standing.webp" class="img-fluid rounded border shadow" alt="">
+                        <img src="/imgs/physical_assets/card standing.webp" class="img-fluid rounded border shadow" alt="Sonsic business card in a modern urban setting">
 
                     </div>
                 </div>
@@ -132,7 +134,8 @@
             <div class="row d-flex flex-row-reverse my-5 align-items-center" style="height: 75vh;">
                 <div class="col-12 col-md-6 mb-3 align-items-center">
                     <div class="image-container-left">
-                        <img src="/imgs/web_console.webp" class="img-fluid rounded border shadow" alt="">
+                        <img src="/imgs/web_console.webp" class="img-fluid rounded border shadow" alt="The Sonsic Web Console - a simple, responsive web console to update your augmented
+                        reality displays at any time, anywhere">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
@@ -150,7 +153,7 @@
             <div class="row mb-5 align-items-center" style="height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
                     <div class="image-container-right">
-                        <img src="/imgs/analytics.webp" class="img-fluid rounded border shadow" alt="">
+                        <img src="/imgs/analytics.webp" class="img-fluid rounded border shadow" alt="A monthly analytic report for further marketing research">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto" style="">
@@ -299,7 +302,7 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h3 class="accordion-header" id="faqHeading3">
+                    <h3 class="accordion-header" id="faqHeading4">
                         <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
                             Question 4: Why is my display not loading?
                         </button>
@@ -318,7 +321,7 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h3 class="accordion-header" id="faqHeading3">
+                    <h3 class="accordion-header" id="faqHeading5">
                         <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
                             Question 5: What are your future plans?
                         </button>
