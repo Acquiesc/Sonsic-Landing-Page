@@ -154,15 +154,15 @@ h3.fade-in, .subheader.fade-in {
 
 /*Custom Styling*/
 .bg-image {
-    background-image: url('/imgs/physical_assets/lookout_2_masked.webp');
+    background-image: url('/imgs/physical_assets/cards stacked parking garage masked.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 90vh;
 }
 
 #join {
-    background-image: url('/imgs/physical_assets/bonsai_looking_tree.webp');
+    background-image: url('/imgs/physical_assets/card back bridge buildings.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

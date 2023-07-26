@@ -45,7 +45,7 @@
     <body class="antialiased bg-light" style="overflow-x: hidden; width: 100vw; max-width: 100vw;">
         @include('inc.notifications')
 
-        <nav class="navbar navbar-expand-lg fixed-lg-top" style="background-color: rgba(27, 27, 27, .5);">
+        <nav class="navbar navbar-expand-lg fixed-lg-top bg-dark">
             <div class="d-flex w-100 justify-content-between align-items-center">
                 <a class="navbar-brand" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt=""></a>
                 <ul class="navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
@@ -57,7 +57,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center bg-image">
-                    <h1 class="fw-bold text-white display-1 my-5">Connecting Brands to Customers<br> like Never Before</h1>
+                    <h1 class="fw-bold text-white display-1 my-5">Connecting Brands to Customers like Never Before</h1>
                     <a href="#join" class="btn">Become Unforgettable</a>
                 </div>
             </div>
@@ -66,17 +66,21 @@
         <div class="container-fluid bg-dark py-5">
             <div class="row align-items-center justify-content-center">
                 <div class="col-12 col-md-10 col-lg-8 text-center text-white ">
-                    <p class="fw-bold fs-3 text-white my-5">We turn ordinary objects like business cards, restaurant menus, and product packaging
-                        into unique and interactive augmented reality displays to deliver a memorable experience and increase brand recognition</p>
+                    <p class="fw-bold fs-3 text-white my-5">We transform almost any ordinary object like business cards, restaurant menus, and product packaging
+                        into unique and interactive augmented reality displays to deliver a memorable user experience and increase brand recognition</p>
+                </div>
+                <div class="col-12 col-md-10 col-lg-8 embed-responsive embed-responsive-16by9">
+                    <video src="/imgs/physical_assets/Sonsic Demo Landscape Cropped.mp4" autoplay muted controls loop></video>
                 </div>
             </div>
         </div>
 
-        <div class="container mb-5">
-            <div class="row mb-5 align-items-center" style="height: 75vh;">
-                <div class="col-12 col-md-6">
+        <!--
+        <div class="container-fluid mb-5">
+            <div class="row my-5 align-items-center" style="height: 75vh;">
+                <div class="col-12 col-md-6 mb-3 align-items-center">
                     <div class="image-container-left">
-                        <img src="/imgs/bc_standard_diagram.svg" class="img-fluid rounded border shadow" style="max-width: 100%;" alt="">
+                        <img src="/imgs/bc_standard_diagram.svg" class="img-fluid rounded border shadow" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto" style="">
@@ -89,11 +93,15 @@
                     </p>
                 </div>
             </div>
+        -->
         
-            <div class="row mb-5 align-items-center" style="height: 75vh;">
+            <div class="row my-5 align-items-center d-flex flex-row-reverse" style="height: 75vh;">
+                <div class="col-12 col-md-6 align-items-center">
+                    <div class="image-container-right">
+                        <img src="/imgs/stock_photos/guy holding phone.webp" class="img-fluid rounded border shadow" alt="">
+                    </div>
+                </div>
                 <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
-                    <i class="bi bi-eye fw-bold text-center mx-auto d-md-none" style="font-size: 10rem;"></i>
-                    
                     <h3 class="display-4 fw-bold mb-3 header">Make your first impression unique & memorable</h3>
                     <p class="d-none d-md-block subheader fs-5">Stand out from the competition by leaving a lasting and 
                         unforgettable impact on potential customers. The immersive and interactive 
@@ -101,16 +109,31 @@
                         Elevate your brand recognition with a first impression that stands out in customers' minds.
                     </p>
                 </div>
-                <div class="d-none d-md-block col-12 col-md-6">
-                    <div class="image-container-right">
-                        <img src="/imgs/physical_assets/sonsic_back_river.webp" class="img-fluid rounded border shadow" style="max-width: 100%;" alt="">
-                    </div>
-                </div>
             </div>
             
-            <div class="row mb-5" style="height: 75vh;">
-                <div class="col-12 col-md-6">
-                    <img src="/imgs/Sonsic_portal.webp" class="image-container-right img-fluid rounded border shadow" style="max-width: 100%;" alt="">
+            <div class="row my-5 align-items-center" style="height: 75vh;">
+                <div class="col-12 col-md-6 align-items-center">
+                    <div class="image-container-right">
+                        <img src="/imgs/physical_assets/card standing.webp" class="img-fluid rounded border shadow" alt="">
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
+                    <h3 class="display-4 fw-bold header">One click user access to all of your existing online marketing materials</h3>
+                    <p class="d-none d-md-block subheader fs-5" >
+                        Simplify your customers' journey with a single tap. Our augmented reality experiences 
+                        provide one-click access to all your online marketing materials, including your website, 
+                        social media profiles, email, and phone. Make it effortless for potential customers to 
+                        get in touch and explore everything your brand has to offer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row d-flex flex-row-reverse my-5 align-items-center" style="height: 75vh;">
+                <div class="col-12 col-md-6 mb-3 align-items-center">
+                    <div class="image-container-left">
+                        <img src="/imgs/web_console.webp" class="img-fluid rounded border shadow" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
                     <h3 class="display-4 fw-bold header">Update your display anytime, anywhere</h3>
@@ -124,28 +147,10 @@
                 </div>
             </div>
 
-            <div class="row d-flex flex-row-reverse mb-5" style="height: 75vh;">
-                <div class="col-12 col-md-6 d-none d-md-block">
-                    <div class="image-container-left">
-                        <img src="/imgs/physical_assets/sonsic_front_building.webp" class="img-fluid rounded border shadow" alt="">
-                    </div>
-                </div>
-                <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
-                    <i class="bi bi-hand-index fw-bold text-center mx-auto d-md-none" style="font-size: 10rem;"></i>
-                    <h3 class="display-4 fw-bold header">One click user access to all of your existing online marketing materials</h3>
-                    <p class="d-none d-md-block subheader fs-5" >
-                        Simplify your customers' journey with a single tap. Our augmented reality experiences 
-                        provide one-click access to all your online marketing materials, including your website, 
-                        social media profiles, email, and phone. Make it effortless for potential customers to 
-                        get in touch and explore everything your brand has to offer.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row mb-5" style="height: 75vh;">
-                <div class="col-12 col-md-6">
+            <div class="row mb-5 align-items-center" style="height: 75vh;">
+                <div class="col-12 col-md-6 align-items-center">
                     <div class="image-container-right">
-                        <img src="/imgs/chart.webp" class="img-fluid rounded border shadow" alt="">
+                        <img src="/imgs/analytics.webp" class="img-fluid rounded border shadow" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto" style="">
