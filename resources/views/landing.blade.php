@@ -72,7 +72,7 @@
                         into unique and interactive augmented reality displays to deliver a memorable user experience and increase brand recognition</p>
                 </div>
                 <div class="col-12 col-md-10 col-lg-8 embed-responsive embed-responsive-16by9">
-                    <video src="/imgs/physical_assets/Sonsic Demo Landscape Cropped.mp4" autoplay muted controls loop alt="A video demonstration of the Sonsic augmented reality business card, featuring the interactability of an AR display"></video>
+                    <video src="/imgs/physical_assets/Demo Card with Buildings.mp4" class="mx-auto" style="max-height: 75vh" autoplay muted controls loop alt="A video demonstration of the Sonsic augmented reality business card, featuring the interactability of an AR display"></video>
                 </div>
             </div>
         </div>
@@ -341,8 +341,7 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-dark position-relative bg-gradient-overlay" style="min-height: 75vh;" id="join">
-            
+        <div class="container-fluid bg-dark position-relative bg-gradient-overlay position-relative" style="min-height: 75vh;" id="join">
             <div class="row py-5" style="z-index: 2;">
                 <div class="col-12 text-center">
                     <h3 class="text-white display-3 mb-5">Ready to Boost your Brand?</h3>
