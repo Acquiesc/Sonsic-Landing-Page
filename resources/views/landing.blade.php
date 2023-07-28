@@ -49,7 +49,7 @@
 
         <nav class="navbar navbar-expand-lg fixed-lg-top bg-dark">
             <div class="d-flex w-100 justify-content-between align-items-center">
-                <a class="navbar-brand" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt="The Sonsic Logo, white letters with a red hexagon dot"></a>
+                <a class="navbar-brand ps-3" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt="The Sonsic Logo, white letters with a red hexagon dot"></a>
                 <ul class="navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
                     <a href="#join" class="btn w-auto text-nowrap d-none d-sm-flex">Become Unforgettable</a>
                 </ul>
@@ -100,7 +100,7 @@
             <div class="row my-5 align-items-center d-flex flex-row-reverse" style="height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
                     <div class="image-container-right">
-                        <img src="/imgs/stock_photos/guy holding phone.webp" class="img-fluid rounded border shadow" alt="Happy customer looking at phone">
+                        <img src="/imgs/physical_assets/handing_card.webp" class="img-fluid rounded border shadow" alt="Happy customer looking at phone">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
@@ -116,7 +116,7 @@
             <div class="row my-5 align-items-center" style="height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
                     <div class="image-container-right">
-                        <img src="/imgs/physical_assets/card standing.webp" class="img-fluid rounded border shadow" alt="Sonsic business card in a modern urban setting">
+                        <img src="/imgs/physical_assets/scanning_card.webp" class="img-fluid rounded border shadow" alt="Sonsic business card in a modern urban setting">
 
                     </div>
                 </div>
