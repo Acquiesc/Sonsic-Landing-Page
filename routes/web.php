@@ -45,7 +45,8 @@ Route::post('/signup', function(Request $request) {
 
     $signup->save();
 
-    /*Mail::to($signup->email)->send(new SignupResponse($signup->id));*/
+    Mail::to($signup->email)->send(new SignupResponse($signup->id));
+    Mail::to('adam.lee@sonsic.com')->send(new SignupResponse($signup->id));
 
     return back()->with('success', 'Thank you for signing up to the Sonsic newsletter!');
 });
