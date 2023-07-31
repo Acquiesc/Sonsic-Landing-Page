@@ -47,16 +47,17 @@
     <body class="antialiased bg-light" style="overflow-x: hidden; width: 100vw; max-width: 100vw;">
         @include('inc.notifications')
 
+        <!--Trying to get git pull to work-->
         <nav class="navbar navbar-expand-lg fixed-lg-top bg-dark">
             <div class="d-flex w-100 justify-content-between align-items-center">
                 <a class="navbar-brand ps-3" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt="The Sonsic Logo, white letters with a red hexagon dot"></a>
                 <ul class="navbar-nav me-3 mb-2 mb-lg-0 w-auto text-start">
-                    <a href="#join" class="btn w-auto text-nowrap d-none d-sm-flex">Become Unforgettable</a>
+                    <a href="#join" class="btn w-auto text-nowrap d-none d-sm-flex me-3">Become Unforgettable</a>
                 </ul>
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="home">
             <div class="row">
                 <div class="col-12 text-center bg-image">
                     <h1 class="fw-bold text-white display-1 my-5">Connecting Brands to Customers like Never Before</h1>
@@ -203,14 +204,14 @@
                         <div class="card-body d-flex flex-column">
                           <h3 class="card-title fw-bold text-center mb-4">Standard Business Card Package</h3>
                           <ul class="card-text mx-auto" style="width: fit-content;">
-                            <li><i class="bi bi-check-square fs-5"></i> Upload your own card design</li>
-                            <li><i class="bi bi-check-square fs-5"></i> 14pt matte cardstock shipped directly to you</li>
-                            <li><i class="bi bi-check-square fs-5"></i> Business dashboard for content updates at any time</li>
-                            <li><i class="bi bi-check-square fs-5"></i> Simple one-click user access to primary contact methods</li>
+                            <li class="fs-5"><i class="bi bi-check-square fs-5"></i> Upload your own card design</li>
+                            <li class="fs-5"><i class="bi bi-check-square fs-5"></i> 14pt matte cardstock shipped directly to you</li>
+                            <li class="fs-5"><i class="bi bi-check-square fs-5"></i> Business dashboard for content updates at any time</li>
+                            <li class="fs-5"><i class="bi bi-check-square fs-5"></i> Simple one-click user access to primary contact methods</li>
                             <ul class="ps-5">
-                              <li>phone</li>
-                              <li>email</li>
-                              <li>website</li>
+                              <li class="fs-5">phone</li>
+                              <li class="fs-5">email</li>
+                              <li class="fs-5">website</li>
                             </ul>
                           </ul>
                         </div>
@@ -221,28 +222,28 @@
                         <div class="card-body d-flex flex-column">
                             <h3 class="card-title fw-bold text-center mb-4">Custom Marketing Package</h3>
                             <ul class="card-text mx-auto" style="width: fit-content;">
-                                <li><i class="bi bi-check-square fs-5"></i>  Free business consultation</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  Design service</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  Custom AR layout</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  3D model placement</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  Video placement</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  Interaction animations</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  Monthly interaction analytic reports</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  Custom business dashboard for content updates at any time</li>
-                                <li><i class="bi bi-check-square fs-5"></i>  Applicable to almost any physical medium with a QR code</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Free business consultation</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Design service</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Custom AR layout</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  3D model placement</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Video placement</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Interaction animations</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Monthly interaction analytic reports</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Custom business dashboard for content updates at any time</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Applicable to almost any physical medium with a QR code</li>
                                 <ul class="ps-5">
-                                    <li>Business cards</li>
-                                    <li>Restaurant menus</li>
-                                    <li>Museum displays</li>
-                                    <li>Product packaging</li>
-                                    <li>Flyers, banners, billboards</li>
+                                    <li class="fs-5">Business cards</li>
+                                    <li class="fs-5">Restaurant menus</li>
+                                    <li class="fs-5">Museum displays</li>
+                                    <li class="fs-5">Product packaging</li>
+                                    <li class="fs-5">Flyers, banners, billboards</li>
                                 </ul>
-                                <li><i class="bi bi-check-square fs-5"></i>  Simple one-click access to primary contact methods, social media, and other online marketing campaigns</li>
+                                <li class="fs-5"><i class="bi bi-check-square fs-5"></i>  Simple one-click access to primary contact methods, social media, and other online marketing campaigns</li>
                                 <ul class="ps-5">
-                                    <li>phone</li>
-                                    <li>email</li>
-                                    <li>website</li>
-                                    <li>social media</li>
+                                    <li class="fs-5">phone</li>
+                                    <li class="fs-5">email</li>
+                                    <li class="fs-5">website</li>
+                                    <li class="fs-5">social media</li>
                                 </ul>
                             </ul>
                         </div>
@@ -263,7 +264,7 @@
                     </h3>
                     <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            <p>Sonsic utilizes a generated QR code to link the user to our web-based augmented reality platform.  From there, we utilize image recognition to scan for the business card,
+                            <p class="fs-5">Sonsic utilizes a generated QR code to link the user to our web-based augmented reality platform.  From there, we utilize image recognition to scan for the business card,
                                 then place the augmented reality display in the "real world" based on the size and orientation of the target.
                             </p>
                         </div>
@@ -278,7 +279,7 @@
                     </h3>
                     <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            <p>While we don't yet have an exact date, we are planning to launch our initial Standard Business Card Display and Custom Marketing Package in early September, 2023.</p>
+                            <p class="fs-5">While we don't yet have an exact date, we are planning to launch our initial Standard Business Card Display and Custom Marketing Package in early September, 2023.</p>
                         </div>
                     </div>
                 </div>
@@ -291,11 +292,11 @@
                     </h3>
                     <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            <p>Sonsic's AR platform works on all modern devices supporting AR technology including mobile phones, tablets, laptops, and desktops.</p>
-                            <p>For a full list of supported mobile devices, please refer to the following links:</p>
+                            <p class="fs-5">Sonsic's AR platform works on all modern devices supporting AR technology including mobile phones, tablets, laptops, and desktops.</p>
+                            <p class="fs-5">For a full list of supported mobile devices, please refer to the following links:</p>
                             <ul>
-                                <li style="list-style: none;"><a href="https://www.apple.com/augmented-reality/" target="_blank">iPhones</a></li>
-                                <li style="list-style: none;"><a href="https://developers.google.com/ar/devices" target="_blank">Android</a></li>
+                                <li style="list-style: none;"><a href="https://www.apple.com/augmented-reality/" class="fs-5" target="_blank">iPhones</a></li>
+                                <li style="list-style: none;"><a href="https://developers.google.com/ar/devices" class="fs-5" target="_blank">Android</a></li>
                             </ul>
                         </div>
                     </div>
@@ -309,13 +310,13 @@
                     </h3>
                     <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            <p>If the display is not properly loading, here are a few common solutions:</p>
-                            <p class="mb-3 ms-3">1) Ensure the webpage has camera access in your browser settings</p>
-                            <p class="mb-3 ms-3">2) Ensure another application or webpage is not currently using your device's camera</p>
-                            <p class="mb-3 ms-3">3) Ensure the business card, menu, or other item has adequate lighting</p>
-                            <p class="mb-3 ms-3">4) Ensure the item's QR code is visible and contained inside your device's camera</p>
-                            <p class="mb-3 ms-3">5) Refresh the webpage</p>
-                            <p class="mb-3 ms-3">6) Use Google Chrome or Firefox - the preferred browsers for Web XR</p>
+                            <p class="fs-5">If the display is not properly loading, here are a few common solutions:</p>
+                            <p class="mb-3 ms-3 fs-5">1) Ensure the webpage has camera access in your browser settings</p>
+                            <p class="mb-3 ms-3 fs-5">2) Ensure another application or webpage is not currently using your device's camera</p>
+                            <p class="mb-3 ms-3 fs-5">3) Ensure the business card, menu, or other item has adequate lighting</p>
+                            <p class="mb-3 ms-3 fs-5">4) Ensure the item's QR code is visible and contained inside your device's camera</p>
+                            <p class="mb-3 ms-3 fs-5">5) Refresh the webpage</p>
+                            <p class="mb-3 ms-3 fs-5">6) Use Google Chrome or Firefox - the preferred browsers for Web XR</p>
                         </div>
                     </div>
                 </div>
@@ -328,11 +329,11 @@
                     </h3>
                     <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            <p class="fw-bold">Sonsic's 2023 business roadmap:</p>
-                            <p class="ms-3">1) Polish the AR infrastructure and web console for the best achievable user experience</p>
-                            <p class="ms-3">2) Launch our online web store and business partner web console in early September 2023</p>
-                            <p class="ms-3">3) Foster close business relationships and modify our delivered products in correspondance with customer feedback</p>
-                            <p class="ms-3">4) Continue developing our AR infrastructure for limitless possibilities and future products for our web store such as video greeting cards,
+                            <p class="fw-bold fs-5">Sonsic's 2023 business roadmap:</p>
+                            <p class="ms-3 fs-5">1) Polish the AR infrastructure and web console for the best achievable user experience</p>
+                            <p class="ms-3 fs-5">2) Launch our online web store and business partner web console in early September 2023</p>
+                            <p class="ms-3 fs-5">3) Foster close business relationships and modify our delivered products in correspondance with customer feedback</p>
+                            <p class="ms-3 fs-5">4) Continue developing our AR infrastructure for limitless possibilities and future products for our web store such as video greeting cards,
                                     restaurant menus, and more!
                             </p>
                         </div>
@@ -345,6 +346,9 @@
             <div class="row py-5" style="z-index: 2;">
                 <div class="col-12 text-center">
                     <h3 class="text-white display-3 mb-5">Ready to Boost your Brand?</h3>
+                    <p class="fs-4 text-white mx-auto" style="max-width: 800px;">Join our waitlist today to stay up to date on all of the exciting new Sonsic developments and earn a chance to win
+                        a free consultation, design, and business card package!
+                    </p>
                     <form action="/signup" method="POST" id="newsletter" style="z-index: 2;">
                         @csrf
                         <div class="row d-flex justify-content-center">
