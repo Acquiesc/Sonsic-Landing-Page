@@ -73,7 +73,7 @@
                         into unique and interactive augmented reality displays to deliver a memorable user experience and increase brand recognition</p>
                 </div>
                 <div class="col-12 col-md-10 col-lg-8 embed-responsive embed-responsive-16by9">
-                    <video src="/imgs/physical_assets/Demo Card with Buildings.mp4" class="mx-auto" style="max-height: 75vh" autoplay muted controls loop alt="A video demonstration of the Sonsic augmented reality business card, featuring the interactability of an AR display"></video>
+                    <video src="/imgs/physical_assets/Website Launch.mp4" class="mx-auto" style="max-height: 75vh" autoplay muted controls alt="A video demonstration of the Sonsic augmented reality business card, featuring the interactability of an AR display"></video>
                 </div>
             </div>
         </div>
@@ -98,10 +98,10 @@
             </div>
             -->
         
-            <div class="row my-5 align-items-center d-flex flex-row-reverse" style="height: 75vh;">
+            <div class="row my-5 align-items-center d-flex flex-row-reverse" style="min-height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
-                    <div class="image-container-right">
-                        <img src="/imgs/physical_assets/handing_card.webp" class="img-fluid rounded border shadow" alt="Happy customer looking at phone">
+                    <div class="image-container-right d-flex">
+                        <img src="/imgs/physical_assets/first_impression.png" class="mx-auto mb-3" style="height: 100%; width: auto; max-width: 90%;" alt="Happy customer looking at phone">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
@@ -114,11 +114,10 @@
                 </div>
             </div>
             
-            <div class="row my-5 align-items-center" style="height: 75vh;">
+            <div class="row my-5 align-items-center" style="min-height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
-                    <div class="image-container-right">
-                        <img src="/imgs/physical_assets/scanning_card.webp" class="img-fluid rounded border shadow" alt="Sonsic business card in a modern urban setting">
-
+                    <div class="image-container-right d-flex">
+                        <img src="/imgs/physical_assets/phone_frame_test.png" class="mx-auto mb-3" style="height: 100%; width: auto; max-width: 90%;" alt="Sonsic business card in a modern urban setting">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto d-flex flex-column" style="">
@@ -132,7 +131,7 @@
                 </div>
             </div>
 
-            <div class="row d-flex flex-row-reverse my-5 align-items-center" style="height: 75vh;">
+            <div class="row d-flex flex-row-reverse my-5 align-items-center" style="min-height: 75vh;">
                 <div class="col-12 col-md-6 mb-3 align-items-center">
                     <div class="image-container-left">
                         <img src="/imgs/web_console.webp" class="img-fluid rounded border shadow" alt="The Sonsic Web Console - a simple, responsive web console to update your augmented
@@ -151,17 +150,15 @@
                 </div>
             </div>
 
-            <div class="row mb-5 align-items-center" style="height: 75vh;">
+            <div class="row mb-5 align-items-center" style="min-height: 75vh;">
                 <div class="col-12 col-md-6 align-items-center">
                     <div class="image-container-right">
                         <img src="/imgs/analytics.webp" class="img-fluid rounded border shadow" alt="A monthly analytic report for further marketing research">
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mx-auto" style="">
-                    <h3 class="display-4 fw-bold header">Monthly user interaction analytic reports</h3>
-                    <p class="d-none d-md-block subheader fs-5">
-                        Gain valuable insights into customer behavior 
-                        with our comprehensive monthly analytic reports. 
+                    <h3 class="display-4 fw-bold header">Gain valuable insights into customer behavior with our comprehensive monthly analytic reports</h3>
+                    <p class="d-none d-md-block subheader fs-5"> 
                         Understand how users interact with your augmented 
                         reality displays and make data-driven decisions to optimize 
                         your marketing strategy. Measure the success of your campaigns and refine your approach 
@@ -316,7 +313,7 @@
                             <p class="mb-3 ms-3 fs-5">3) Ensure the business card, menu, or other item has adequate lighting</p>
                             <p class="mb-3 ms-3 fs-5">4) Ensure the item's QR code is visible and contained inside your device's camera</p>
                             <p class="mb-3 ms-3 fs-5">5) Refresh the webpage</p>
-                            <p class="mb-3 ms-3 fs-5">6) Use Google Chrome or Firefox - the preferred browsers for Web XR</p>
+                            <p class="mb-3 ms-3 fs-5">6) Use Google Chrome or Firefox - the preferred browsers for Web AR</p>
                         </div>
                     </div>
                 </div>
