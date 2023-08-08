@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sonsic</title>
         <meta name="description" content="Transform almost any ordinary object like business cards, restaurant menus, and product packaging into unique and interactive augmented reality displays to deliver a memorable user experience and increase brand recognition. Sonsic AR empowers brands to make a first impression that stands out and offers one-click user access to all existing online marketing materials. Update displays anytime, anywhere, and gain insights with monthly user interaction analytic reports. Accessible on all modern devices. Join our waitlist now to boost your brand!">
-        <meta name="keywords" content="Sonsic AR, augmented reality displays, interactive AR technology, brand recognition, user experience, online marketing materials, AR infrastructure, augmented reality platform, modern devices, business cards, restaurant menus, product packaging, user interaction analytics, brand impact, customer behavior, web-based augmented reality, Sonsic">
+        <meta name="keywords" content="Sonsic, Sonsic AR, augmented reality displays, interactive AR technology, brand recognition, online marketing materials, AR infrastructure, augmented reality platform, business cards, restaurant menus, product packaging, user interaction analytics, brand impact, augmented reality">
         <meta name="author" content="Sonsic">
 
         <!-- Favicon -->
@@ -47,7 +47,6 @@
     <body class="antialiased bg-light" style="overflow-x: hidden; width: 100vw; max-width: 100vw;">
         @include('inc.notifications')
 
-        <!--Trying to get git pull to work-->
         <nav class="navbar navbar-expand-lg fixed-lg-top bg-dark">
             <div class="d-flex w-100 justify-content-between align-items-center">
                 <a class="navbar-brand ps-3" href="#home"><img src="/imgs/Sonsic White Logo (2).svg" width="150" alt="The Sonsic Logo, white letters with a red hexagon dot"></a>
@@ -134,7 +133,7 @@
             <div class="row d-flex flex-row-reverse my-5 align-items-center" style="min-height: 75vh;">
                 <div class="col-12 col-md-6 mb-3 align-items-center">
                     <div class="image-container-left">
-                        <img src="/imgs/web_console.webp" class="img-fluid rounded border shadow" alt="The Sonsic Web Console - a simple, responsive web console to update your augmented
+                        <img src="/imgs/web_console.png" class="img-fluid rounded border shadow" alt="The Sonsic Web Console - a simple, responsive web console to update your augmented
                         reality displays at any time, anywhere">
                     </div>
                 </div>
